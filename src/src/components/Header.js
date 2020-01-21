@@ -20,6 +20,12 @@ const Header = () => (
       <li>
         <NavLink to="/courses">Courses</NavLink>
       </li>
+      <li>
+        <NavLink to="/courses">Another Page</NavLink>
+        <li>
+          <NavLink to="/courses">Courses</NavLink>
+        </li>
+      </li>
     </ul>
   </header>
 );
